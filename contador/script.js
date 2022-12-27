@@ -23,7 +23,6 @@ function contar(){
             window.alert('Passo invalido, CONSIDERADO PASSO COMO 1 ')
             p = 1
         }
-
         if (i<f){
             //contagem crescente
             for(let c = i; c <= f; c+=p){
@@ -37,9 +36,6 @@ function contar(){
             }
             res.innerHTML += ` \u{1F3C1} `
         }
-
-
-
 
     }
 
